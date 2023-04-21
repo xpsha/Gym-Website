@@ -1,0 +1,388 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: red;
+  color: white;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  height: 100%;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 30px;
+
+}
+
+header {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  float: left;
+  width: 250px;
+  height: 150px;
+  display: flex;
+
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.main-menu {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.main-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+}
+
+.main-menu li {
+  display: block;
+  margin: auto;
+  padding: 30px 20px;
+  border-bottom: none;
+  align-items: center;
+}
+
+.main-menu li a:hover {
+  color: yellow
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: black;
+ 
+}
+
+
+footer div {
+  text-align: center;
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .col {
+  width: 190px;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.footer .col h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 17px;
+  padding: 10px 0;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.footer .col ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer .col ul li {
+  color: white;
+  font-size: 15px;
+  padding: 5px 0px;
+}
+
+.address ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .col ul li:hover {
+  cursor: pointer;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.social-icons i {
+  font-size: 25px;
+}
+
+.social-icons ul {
+  list-style: none;
+}
+
+.copyright{
+  
+}
+
+main {
+  color: white;
+  font-size: 20px;
+  min-height: 100vh;
+  margin-bottom: -75px;
+}
+
+.photo{
+  height: 400px;
+  Width:300px;
+}
+
+form {
+  color: white;
+}
+
+.resizedcheckbox {
+  width: 1010px;
+}
+
+.resizedtextbox {
+  width: 400px;
+  height: 20px;
+}
+
+.carousel {
+  position: relative;
+  /* positions the carousel to where it originally would be on the page so that the document flows and so it is relative to its original positon also */
+
+  /* This is the width and height of how big an individual image will be within the image carousel */
+  width: 500px;
+  height: 250px;
+
+  overflow: hidden;
+  /* This will make sure that only one of my images is shown at any given time */
+  margin: auto;
+  /* This will center the carousel and uses the left and right space equally */
+
+  /* Rounds the elements outer border edges using specific values and the box-shadow adds shadow effects round an elements frame and sets an rgba value which gives an alpha value to the colours being used */
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.carousel-images {
+  /*This contains the carousel images for within the website */
+
+  position: absolute;
+  /*There needs to be an absolute position so that there is precise control over each image */
+
+
+  z-index: 1;
+  /* The z-index property can be used with elements such as position: absolute; 
+    It defines that the order elements are stacked on the page's (Z Axis). */
+
+
+  left: 0;
+  /* because position absolute is used earlier on there is an offset position and in this circumstance it needs to be left */
+
+
+  /* This is the width and height that is based on the size and number of images that will be used. */
+
+  width: 4500px;
+  height: 250px;
+
+  /* This allows for a smooth transition between images. The
+      transition lasts for half a second with the "ease-in-out" 
+      function. with a transition to the left property. */
+
+  transition: left .5s ease-in-out;
+}
+
+
+/* For each Image within the carousel the Image size can be set manually */
+
+.carousel-images img {
+  width: 500px;
+  height: 250px;
+}
+
+.carousel nav {
+  /* This contains the navigation buttons for the slideshow. This will change the
+    width and height of this component to the size of a single image for the carousel within the website.*/
+
+  /* This defines and creates a flex container and also justifies the content for the arrows so there is space between the previous and the next arrow */
+  display: flex;
+  justify-content: space-between;
+
+  /* This allows us to place the navigation arrows over the images using the position absolute and allows us to use order elements on the Z Axis */
+  position: absolute;
+  z-index: 2;
+
+  /* This element is now the size of the carousel element using a width and height to define the size */
+  width: 500px;
+  height: 200px;
+
+  line-height: 200px;
+  /* This will centre the buttons vertically and centered one for previous and one for the next arrow */
+
+}
+
+/* This gives the nav arrows decoration such as removing the text-decoration like removing underlines or changing the colour of the arrows as well as setting a font size and changing the padding for the nav arrows. */
+.carousel nav a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 30pt;
+  padding: 0px 25px;
+  /* This transitions all properties that change when you hover */
+  transition: all .25s ease;
+
+  /* The properties that change on hover are the opacity and the background-colour and that is done using the rgba values  */
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* This is for the  previous and next button when hover state */
+.carousel nav:hover a {
+
+  /* Transition all the properties that change */
+  transition: all .25s ease;
+
+  /* These properties are the ones that need to change back such as the opacity and background colour of the prev and next buttons when above the image carousel */
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* This places the caption over the image */
+.carousel-caption {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 50px;
+  line-height: 50px;
+  margin: 0px;
+}
+
+.background-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .background-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* This contains the gallery.  This can change the width depending on
+  the width of your site.*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+/*This contains the gallery items such as what size of the image will be within the 3x3 image gallery */
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/*This defines the images of each gallery item to be a width of 100%*/
+.gallery-item img {
+  width: 100%;
+}
+
+/*This defines the captions that will be used with each gallery item such as how big the text and margin size will be */
+.gallery-item caption {
+  margin-top: 5px;
+  font-size: 0.75em;
+}
+
+/* This defines the gallery item hover motion so what happens when you hover over each gallery item such as the color it will change to when you hover */
+.gallery-item:hover {
+  background-color: #333;
+}
+
+/* This defines the gallery item hover caption motion so what happens when you hover over each gallery item hover caption it will change the color to white */
+.gallery-item:hover caption {
+  color: #fff;
+}
+
+/* This updates the width of our page */
+@media(max-width: 1000px) {
+  .gallery {
+    width: 100%;
+  }
+
+  /*This updates the gallery item width */
+  .gallery-item {
+    width: 50%
+  }
+}
+
+/*This updates the width of the page to 500px */
+@media(max-width: 500px) {
+  .gallery-item {
+    width: 100%;
+  }
+}
+
+/*Mobile devices and Tablets*/
+@media screen and (min-width: 320px) and (max-width: 926px) and (orientation :portrait) {
+  body {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1366px) and (orientation :landscape) {
+  body {
+    width: 100%;
+  }
+}

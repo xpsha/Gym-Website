@@ -1,0 +1,39 @@
+[
+    {
+        "url": "img/Squats.png",
+        "caption": "Squats(Barbell)"
+    },
+    {
+        "url": "img/Barbell-Platform.png",
+        "caption": "Barbell Platform(Barbell)"
+    },
+    {
+        "url": "img/Cable-Exercises.png",
+        "caption": "Cable Exercises(Cable)"
+    },
+    {
+        "url": "img/Weights.png",
+        "caption": "Weights(Dumbbell)"
+    },
+    {
+        "url": "img/Bench-Press.png",
+        "caption": "Benchpress(Barbell)"
+    },
+    {
+        "url": "img/Leg-Press.png",
+        "caption": "Leg Press(Machine)"
+    },
+    {
+        "url": "img/Functional.png",
+        "caption":"Functional(Obstacle Course)"
+    },
+    {
+        "url": "img/Cardio-Cycling.png",
+        "caption": "Cycling(Cardio)"
+    },
+    {
+        "url": "img/Treadmill.png",
+        "caption": "Treadmill(Cardio)"
+    }
+
+]

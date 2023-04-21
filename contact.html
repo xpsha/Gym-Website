@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/eb631e0f8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <div class="logo">
+                    <img src="img/Fitness.png">
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="equipment.html">What Equipment We Have</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="join.html">Join Now</a></li>
+            </ul>
+        </nav>
+        <video class="background-video" src="assets/GymVideo.mp4" muted loop autoplay></video>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form>
+            <div>First Name:<input type="text" name="First Name"></div>
+            <div>Last Name:<input type="text" name="Last Name"></div>
+            <div>Phone Number:<input type="tel" name="Telephone" placeholder="+44 00000 000 000"></div>
+            <div>Email Address:<input type="email" placeholder="me@example.com" required></div>
+            <fieldset class="resizedcheckbox">
+                <legend>How would you like Fitness First to contact you?:</legend>
+
+                <div>
+                    <input type="checkbox" id="Email" name="Email" checked>
+                    <label for="Email">Email</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="SMS" name="SMS">
+                    <label for="SMS">SMS</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Post" name="Post">
+                    <label for="Post">Post</label>
+                </div>
+            </fieldset>
+            <label for="Why have you chosen Fitness First?">Why have you chosen Fitness First?(50 to
+                200characters):</label>
+            <input type="text" id="name" class="resizedtextbox" name="Why have you chosen Fitness First?" required
+                minlength="20" maxlength="100" size="150">
+
+            <input type="button" value="Submit Form">
+
+        </form>
+    </main>
+    <footer>
+        <footer>
+            <div class="footer">
+                <div class="content">
+                    <div class="col">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="equipment.html">What Equipment We Have</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="join.html">Join Now</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2>Address</h2>
+                        <ul>
+                            <li>St David's Retail Park, Caernarfon Rd, Bangor LL57 4TJ</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2>Social Media Links</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2>How To Contact Us</h2>
+                        <ul>
+                            <li>Use form above or contact us with the details below:</li>
+                            <li>Phone: 01248 893117</li>
+                            <li>Email: FitnessFirst@Gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="copyright"></div>
+                    &copy Fitness First
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            </div>
+            </div>
+        </footer>
+</body>
+
+</html>
