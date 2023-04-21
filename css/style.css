@@ -79,10 +79,17 @@ header {
  
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
 
 footer div {
   text-align: center;
-  display: inline-block;
+}
+
+footer .content {
+  display: flex;
 }
 
 footer a {
@@ -131,16 +138,16 @@ footer a {
   font-weight: bold;
 }
 
+.social-icons {
+  padding: 20px;
+}
+
 .social-icons i {
   font-size: 25px;
 }
 
 .social-icons ul {
   list-style: none;
-}
-
-.copyright{
-  
 }
 
 main {
@@ -153,6 +160,7 @@ main {
 .photo{
   height: 400px;
   Width:300px;
+  display: block; 
 }
 
 form {
