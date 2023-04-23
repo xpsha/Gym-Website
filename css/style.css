@@ -163,14 +163,43 @@ main {
 }
 
 form {
-  color: white;
+  font-size: 25px;
+  background-color: black;
+  width: 30%;
+  margin: 0 auto; 
+}
+.formtitle{
+  background-color: black;
+  width:30%;
+  margin: 0 auto; 
 }
 
 .resizedcheckbox {
-  width: 1010px;
+  width: 734px;
+}
+
+input[type="text"]{
+ font-size:15px;
+}
+
+input[type="tel"]{
+  font-size:15px;
+ }
+
+ input[type="email"]{
+  font-size:15px;
+ }
+
+ input[type="card-number"]{
+  font-size:15px;
+ }
+
+.button{
+  font-size: 15px;
 }
   textarea{
   font-family:'Trebuchet MS', sans-serif;
+  font-size: 15px;
   }
 
 .carousel {
