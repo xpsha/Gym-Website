@@ -178,8 +178,8 @@ form {
   /* positions the carousel to where it originally would be on the page so that the document flows and so it is relative to its original positon also */
 
   /* This is the width and height of how big an individual image will be within the image carousel */
-  width: 500px;
-  height: 250px;
+  width: 1000px;
+  height: 500px;
 
   overflow: hidden;
   /* This will make sure that only one of my images is shown at any given time */
@@ -209,8 +209,8 @@ form {
 
   /* This is the width and height that is based on the size and number of images that will be used. */
 
-  width: 4500px;
-  height: 250px;
+  width: 9000px;
+  height: 500px;
 
   /* This allows for a smooth transition between images. The
       transition lasts for half a second with the "ease-in-out" 
@@ -223,8 +223,8 @@ form {
 /* For each Image within the carousel the Image size can be set manually */
 
 .carousel-images img {
-  width: 500px;
-  height: 250px;
+  width: 1000px;
+  height: 500px;
 }
 
 .carousel nav {
@@ -240,10 +240,10 @@ form {
   z-index: 2;
 
   /* This element is now the size of the carousel element using a width and height to define the size */
-  width: 500px;
-  height: 200px;
+  width: 1000px;
+  height: 500px;
 
-  line-height: 200px;
+  line-height: 500px;
   /* This will centre the buttons vertically and centered one for previous and one for the next arrow */
 
 }

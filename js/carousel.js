@@ -53,11 +53,9 @@
       // Current image in view at any given time
       var currentImage = 1;
     
-      // Width of the images (could be calculated from clientWidth)
-      // var imageWidth = images.getElementsByTagName('img')[0].clientWidth;
-      var imageWidth = 500;
+      // Width of the images (could be calculated from clientWidth images.getElementsByTagName('img')[0].clientWidth)
+      var imageWidth = 1000;
       
-    
       // Previous button
       // Calls an anonymous function when the prev button is clicked
       prev.addEventListener('click', function() {
