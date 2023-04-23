@@ -171,11 +171,9 @@ form {
 .resizedcheckbox {
   width: 1010px;
 }
-
-.resizedtextbox {
-  width: 400px;
-  height: 20px;
-}
+  textarea{
+  font-family:'Trebuchet MS', sans-serif;
+  }
 
 .carousel {
   position: relative;
