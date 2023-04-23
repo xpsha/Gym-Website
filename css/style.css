@@ -137,6 +137,9 @@ footer a {
   font-weight: bold;
 }
 
+.copyright{
+  background-color: black;
+}
 .social-icons {
   padding: 20px;
 }
@@ -148,7 +151,6 @@ footer a {
 .social-icons ul {
   list-style: none;
 }
-
 main {
   color: white;
   font-size: 20px;
