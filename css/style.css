@@ -162,20 +162,35 @@ main {
   display: block; 
 }
 
-form {
+.contactus{
   font-size: 25px;
   background-color: black;
-  width: 30%;
+  width: 40%;
   margin: 0 auto; 
 }
-.formtitle{
+.contactusform{
+  font-size:25px;
   background-color: black;
-  width:30%;
+  width:40%;
+  margin: 0 auto; 
+}
+
+.joinus{
+  font-size: 25px;
+  background-color: black;
+  width: 40%;
+  margin: 0 auto; 
+}
+
+.joinusform{
+  font-size:25px;
+  background-color: black;
+  width:40%;
   margin: 0 auto; 
 }
 
 .resizedcheckbox {
-  width: 734px;
+  width: 600px;
 }
 
 input[type="text"]{
@@ -386,8 +401,20 @@ input[type="tel"]{
   color: #fff;
 }
 
+@media(max-width: 2000px) {
+  header {
+    height: 600px;
+  }
+}
+
 /* This updates the width of our page */
 @media(max-width: 1000px) {
+
+  header {
+    height: 400px;
+  }
+
+
   .gallery {
     width: 100%;
   }
