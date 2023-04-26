@@ -440,15 +440,7 @@ form legend {
 }
 
 .Burger {
-  position: fixed;
-  z-index: 1000;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  border: black solid 1px;
-  background: red;
-  cursor: pointer;
-  display: none;
+ display: none;
 }
 
 .closeIcon {
@@ -456,24 +448,11 @@ form legend {
 }
 
 .burger-menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 999;
-  background: red;
-  color: white;
-  list-style: none;
-  padding-top: 4rem;
-  display: flex;
-  flex-direction: column;
+  display: none;
 }
 
 .showMenu {
-  transform: translateY(0);
+  display: none;
 }
 
 @media(max-width: 2000px) {
@@ -527,16 +506,38 @@ form legend {
     display: none;
   }
   .Burger{
-    display:block;
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: red;
+    cursor: pointer;
   }
   .burger-menu{
-    display: block;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: red;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+  };
   }
   .closeIcon {
     display: block;
   }
+
   .showMenu {
-  display: block;
+    transform: translateY(0);
   }
-}
+
 
