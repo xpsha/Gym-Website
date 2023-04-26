@@ -506,7 +506,7 @@ form legend {
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width:996px) {
   .main-menu a {
     display: none;
   }
@@ -526,19 +526,8 @@ form legend {
   .main-menu ul {
     display: none;
   }
-  .burger-menu{
-    display: block;
-  }
-  .Burger{
-    display:block;
-  }
-  .closeIcon{
-    display:none;
-  }
-  .showMenu{
-    display: block;
-  }
 }
+
 
 @media(max-width:1965px) {
   .burger-menu {
