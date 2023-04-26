@@ -169,6 +169,7 @@ main p{
   font-size: 35px;
   background-color: black;
   width:35%;
+  margin: 0 auto;
 }
 .contactusform{
   font-size:30px;
@@ -181,21 +182,23 @@ form h1{
   font-size: 35px;
   background-color: black;
   width: 35%;
+  margin: 0 auto;
 }
 
 .joinusform{
   font-size:30px;
   background-color: black;
   width:35%;
-  border:  4px solid white;
+  border: 4px solid white;
 }
 
 .resizedbox {
-  width: 600px;
+  width: 870px;
 }
 
 input[type="text"]{
  font-size:20px;
+
 }
 
 input[type="tel"]{
@@ -208,7 +211,6 @@ input[type="tel"]{
 
  input[type="card-number"]{
   font-size:20px;
- 
  }
 
 .form-button{
@@ -222,7 +224,8 @@ input[type="tel"]{
 	text-shadow: none;
  }
   input,textarea{
-    display: block;
+    display:block;
+    font-size:20px;
   }
   
   fieldset div{
@@ -241,11 +244,13 @@ input[type="tel"]{
     height: 25px;
     text-align: center;
     }
+form{
+margin: 0 auto;
+}
 
-    form{
-    
-    }
-
+form legend {
+  font-size: 30px;
+}
 .carousel {
   position: relative;
   /* positions the carousel to where it originally would be on the page so that the document flows and so it is relative to its original positon also */
