@@ -42,15 +42,11 @@ header {
   font-size: 25px;
 }
 
-
-.main-menu {
+.main-menu ul {
   position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 1;
-}
-
-.main-menu ul {
   display: flex;
   list-style: none;
   margin: 0px;
@@ -445,6 +441,7 @@ form legend {
   border: black solid 1px;
   background: red;
   cursor: pointer;
+  justify-content: right;
 }
 
 .closeIcon {
@@ -464,6 +461,8 @@ form legend {
   color: white;
   list-style: none;
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .showMenu {
@@ -531,9 +530,11 @@ form legend {
  .main-menu h1{
   display: none;
 }
-}
-@media (max-width:772px) {
- .main-menu{
+.main-menu .logo{
   display:none;
-  }
 }
+.main-menu ul{
+  display:none;
+}
+}
+
