@@ -441,7 +441,6 @@ form legend {
   border: black solid 1px;
   background: red;
   cursor: pointer;
-  justify-content: right;
 }
 
 .closeIcon {
@@ -538,3 +537,17 @@ form legend {
 }
 }
 
+@media(max-width:1965px){
+  .burger-menu{
+    display:none;
+  }
+  .Burger{
+    display:none;
+  }
+  .closeIcon{
+    display:none;
+  }
+  .showMenu{
+    display:none;
+  }
+}
