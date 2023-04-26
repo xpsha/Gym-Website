@@ -155,6 +155,10 @@ main {
   min-height: 100vh;
 }
 
+main p{
+  font-size:25px;
+}
+
 .photo{
   height: 400px;
   Width:300px;
@@ -172,9 +176,10 @@ main {
   background-color: black;
   width:35%;
   margin: 0 auto; 
+  border: solid white;
 }
 
-.joinus{
+form h1{
   font-size: 35px;
   background-color: black;
   width: 35%;
@@ -186,9 +191,10 @@ main {
   background-color: black;
   width:35%;
   margin: 0 auto; 
+  border:  4px solid white;
 }
 
-.resizedcheckbox {
+.resizedbox {
   width: 600px;
 }
 
@@ -206,10 +212,12 @@ input[type="tel"]{
 
  input[type="card-number"]{
   font-size:20px;
+ 
  }
-
 .button{
   font-size: 20px;
+  color:white ;
+  background-color: #36454F;
 }
   textarea{
   font-family:'Trebuchet MS', sans-serif;
@@ -219,6 +227,23 @@ input[type="tel"]{
   input,textarea{
     display: block;
   }
+  
+  fieldset div{
+  display: inline-block;
+  font-size: 25px;
+  }
+
+  .resizedbox{
+    font-size: 25px;
+  }
+
+  input[type=checkbox] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    }
 
 .carousel {
   position: relative;
