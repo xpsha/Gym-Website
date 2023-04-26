@@ -532,6 +532,12 @@ form legend {
   .Burger{
     display:block;
   }
+  .closeIcon{
+    display:none;
+  }
+  .showMenu{
+    display: block;
+  }
 }
 
 @media(max-width:1965px) {
