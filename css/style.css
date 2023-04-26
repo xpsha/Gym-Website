@@ -463,8 +463,9 @@ form legend {
   display:flex;
   flex-direction: column;
 }
-
-
+.showMenu {
+  transform: translateY(0);
+}
 @media(max-width: 2000px) {
   header {
     height: 600px;
