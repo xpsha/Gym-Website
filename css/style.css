@@ -448,6 +448,7 @@ form legend {
   border: black solid 1px;
   background: red;
   cursor: pointer;
+  display: none;
 }
 
 .closeIcon {
@@ -488,7 +489,6 @@ form legend {
     height: 400px;
   }
 
-
   .gallery {
     width: 100%;
   }
@@ -526,23 +526,7 @@ form legend {
   .main-menu ul {
     display: none;
   }
-}
-
-
-@media(max-width:1965px) {
-  .burger-menu {
-    display: none;
-  }
-
-  .Burger {
-    display: none;
-  }
-
-  .closeIcon {
-    display: none;
-  }
-
-  .showMenu {
-    display: none;
+  .Burger{
+    display:block;
   }
 }
