@@ -408,7 +408,7 @@ input[type="tel"]{
   right: 1rem;
   padding: 4px;
   border: black solid 1px;
-  background: white;
+  background: red;
   cursor: pointer;
 }
 
@@ -425,7 +425,7 @@ input[type="tel"]{
   right: 0;
   bottom: 0;
   z-index: 999;
-  background: black;
+  background: red;
   color: white;
   list-style: none;
   padding-top: 4rem;
