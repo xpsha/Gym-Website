@@ -162,29 +162,29 @@ main {
 }
 
 .contactus{
-  font-size: 25px;
+  font-size: 35px;
   background-color: black;
-  width: 40%;
+  width:35%;
   margin: 0 auto; 
 }
 .contactusform{
-  font-size:25px;
+  font-size:30px;
   background-color: black;
-  width:40%;
+  width:35%;
   margin: 0 auto; 
 }
 
 .joinus{
-  font-size: 25px;
+  font-size: 35px;
   background-color: black;
-  width: 40%;
+  width: 35%;
   margin: 0 auto; 
 }
 
 .joinusform{
-  font-size:25px;
+  font-size:30px;
   background-color: black;
-  width:40%;
+  width:35%;
   margin: 0 auto; 
 }
 
@@ -193,27 +193,31 @@ main {
 }
 
 input[type="text"]{
- font-size:15px;
+ font-size:20px;
 }
 
 input[type="tel"]{
-  font-size:15px;
+  font-size:20px;
  }
 
  input[type="email"]{
-  font-size:15px;
+  font-size:20px;
  }
 
  input[type="card-number"]{
-  font-size:15px;
+  font-size:20px;
  }
 
 .button{
-  font-size: 15px;
+  font-size: 20px;
 }
   textarea{
   font-family:'Trebuchet MS', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+  }
+
+  input,textarea{
+    display: block;
   }
 
 .carousel {
