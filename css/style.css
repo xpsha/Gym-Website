@@ -529,7 +529,11 @@ form legend {
   .burger-menu{
     display: block;
   }
+  .Burger{
+    display:block;
+  }
 }
+
 @media(max-width:1965px) {
   .burger-menu {
     display: none;
