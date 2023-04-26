@@ -246,6 +246,7 @@ input[type="tel"]{
     }
 form{
 margin: 0 auto;
+align-items: center;
 }
 
 form legend {
