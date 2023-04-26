@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
     <title>Gym Website</title>
     <link rel="stylesheet" href="css/style.css" />
     <script defer type="text/javascript" src="js/carousel.js"></script>
+    <script defer type="text/javascript" src="js/burger-menu.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/eb631e0f8e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 </head>
 <body>
     <header>
@@ -23,13 +26,22 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="join.html">Join Now</a></li>
             </ul>
+            <ul class="burger-menu">
+                <li><a class="menuItem" href="index.html">Home</a></li>
+                <li><a class="menuItem" href="equipment.html">What Equipment We Have</a></li>
+                <li><a class="menuItem" href="contact.html">Contact Us</a></li>
+                <li><a class="menuItem" href="about.html">About Us</a></li>
+                <li><a class="menuItem" href="join.html">Join Now</a></li>
+              </ul>
+            <button class="Burger"><i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i></button>
         </nav>
         <video class="background-video" src="assets/GymVideo.mp4" muted loop autoplay></video>
     </header>
     <main>
         <h1>Welcome to Fitness First</h1>
         <h2>
-            Join Fitness First now for £42 per month as well as get access to 7 other gyms at no extra cost or try Fitness First free for 1 month</h2>
+            Join Fitness First now for £42 per month!! Get access to 7 other gyms at no extra cost or try Fitness First free for 1 month</h2>
         <div class="carousel">
             <!-- This defines the class carousel container so it can be used within css and js to start styling and creating it -->
             <nav>
