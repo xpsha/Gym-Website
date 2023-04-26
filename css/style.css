@@ -169,28 +169,24 @@ main p{
   font-size: 35px;
   background-color: black;
   width:35%;
-  margin: 0 auto; 
 }
 .contactusform{
   font-size:30px;
   background-color: black;
-  width:35%;
-  margin: 0 auto; 
-  border: solid white;
+  width:35%; 
+  border: 4px solid white;
 }
 
 form h1{
   font-size: 35px;
   background-color: black;
   width: 35%;
-  margin: 0 auto; 
 }
 
 .joinusform{
   font-size:30px;
   background-color: black;
   width:35%;
-  margin: 0 auto; 
   border:  4px solid white;
 }
 
@@ -214,16 +210,17 @@ input[type="tel"]{
   font-size:20px;
  
  }
-.button{
+
+.form-button{
   font-size: 20px;
   color:white ;
   background-color: #36454F;
 }
-  textarea{
-  font-family:'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  }
 
+.form-button:hover {
+	color: grey;
+	text-shadow: none;
+ }
   input,textarea{
     display: block;
   }
@@ -243,6 +240,10 @@ input[type="tel"]{
     width: 25px;
     height: 25px;
     text-align: center;
+    }
+
+    form{
+    
     }
 
 .carousel {
