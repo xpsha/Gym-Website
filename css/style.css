@@ -506,28 +506,6 @@ form legend {
   }
 }
 
-/*Mobile devices and Tablets*/
-@media (max-width:926px) and (orientation :portrait) {
-  body {
-    width: 100%;
-  }
-
-  .main-menu {
-    width: 100%;
-  }
-}
-
-
-@media (max-width: 1366px) and (orientation :landscape) {
-  body {
-    width: 100%;
-  }
-
-  .main-menu {
-    width: 100%;
-  }
-}
-
 @media (max-width:1000px) {
   .main-menu a {
     display: none;
@@ -548,24 +526,10 @@ form legend {
   .main-menu ul {
     display: none;
   }
-
-  .burger-menu {
+  .burger-menu{
     display: block;
-  }
-
-  .Burger {
-    display: block;
-  }
-
-  .closeIcon {
-    display: block
-  }
-
-  .showMenu {
-    display: block
   }
 }
-
 @media(max-width:1965px) {
   .burger-menu {
     display: none;
