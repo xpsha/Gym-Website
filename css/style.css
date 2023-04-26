@@ -529,7 +529,6 @@ form legend {
   .Burger{
     display: block;
 }
-
 .burger-menu {
   position: fixed;
   transform: translateY(-100%);
@@ -546,5 +545,4 @@ form legend {
   display:flex;
   flex-direction: column;
 }
-
 }
