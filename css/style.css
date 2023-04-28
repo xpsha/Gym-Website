@@ -284,7 +284,7 @@ form legend {
   /* positions the carousel to where it originally would be on the page so that the document flows and so it is relative to its original positon also */
 
   /* This is the width and height of how big an individual image will be within the image carousel */
-  width: 1000px;
+  width: 975px;
   height: 500px;
 
   overflow: hidden;
@@ -330,7 +330,7 @@ form legend {
 /* For each Image within the carousel the Image size can be set manually */
 
 .carousel-images img {
-  width: 1000px;
+  width: 975px;
   height: 500px;
 }
 
@@ -347,7 +347,7 @@ form legend {
   z-index: 2;
 
   /* This element is now the size of the carousel element using a width and height to define the size */
-  width: 1000px;
+  width: 975px;
   height: 500px;
 
   line-height: 500px;
