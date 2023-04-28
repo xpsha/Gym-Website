@@ -5,6 +5,7 @@ const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
 function toggleMenu() {
+  console.log("yo momma")
   if (burgerMenu.classList.contains("showMenu")) {
     burgerMenu.classList.remove("showMenu");
     closeIcon.style.display = "none";
