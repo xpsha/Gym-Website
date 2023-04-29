@@ -41,10 +41,6 @@ header {
   display: flex;
 }
 
-.burger-menu .logo{
-  position:absolute;
-  top: 0px;
-}
 .main-menu a {
   text-decoration: none;
   color: white;
@@ -521,6 +517,7 @@ form legend {
     height: 600px;
   }
 }
+
 
 /* This updates the width of our page */
 @media(max-width: 1000px) {
