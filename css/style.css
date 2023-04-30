@@ -270,6 +270,7 @@ input[type=checkbox] {
   width: 25px;
   height: 25px;
   text-align: center;
+  display: inline-block;
 }
 
 form {
