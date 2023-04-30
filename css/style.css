@@ -470,6 +470,8 @@ form legend {
   background: red;
   cursor: pointer;
   display: none;
+  width:45px ;
+  height:45px ;
 }
 
 
