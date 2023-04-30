@@ -564,4 +564,8 @@ form legend {
   ul.burger-menu {
     display: flex;
   }
+  .gallery-item caption {
+    margin-top: 5px;
+    font-size: 1.75em;
+  }
 }
